@@ -1,0 +1,98 @@
+body {
+  background-color: #f2f2f2;
+  margin: 1.5%;
+}
+
+h1, h2, h3, h4 {
+  text-align: center;
+  background-color: #f2f2f2;
+  margin: 0.25%;
+}
+
+h5 {
+  text-align: center;
+  margin: 0.25%;
+}
+
+h6 {
+  font-size:small;
+  font-weight: bold;
+  margin: 0.25%
+}
+
+.pretty {
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  margin: 10px;
+  padding: 15px;
+  box-shadow: 2px 2px 2px lightgrey;
+}
+
+.row {
+  display: flex;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px; /* 5px rounded corners */
+}
+
+/* Add rounded corners to the top left and the top right corner of the image */
+img {
+  border-radius: 5px 5px 0 0;
+}
+
+.legend_bottom {
+	background-color: rgba(255, 255, 255, 0.5);
+	height: 66px;
+	margin-top: 70px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.legend_bottom img {
+	height: 36px;
+}
+
+.legend {
+	padding: 15px 5px 15px 5px;
+	font-size: 18px;
+	color: #002b49;
+	font-weight: 600;
+	display: inline-block; margin-left : 2%;
+	margin-right: 2%;
+	margin-left: 2%;
+}
+
+.columnmi {
+    flex:2%;
+}
+
+.column1 {
+  flex: 30%;
+  height: 250px
+}
+
+.column2 {
+  flex: 70%;
+}
+
+.column3 {
+  flex: 50%;
+}
+
+.columnMap1 {
+    flex:20%;
+}
+
+.columnMap2 {
+    flex:20%;
+}
+.columnBar {
+    flex:20%;
+}
+
+.mini {
+  flex: 15%;
+  margin: 5%;
+}

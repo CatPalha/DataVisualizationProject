@@ -1,2 +1,2 @@
-# DataVisualizationProject
-Dashboard on world emissions
+# DV_Project
+ Data Visualization Project
